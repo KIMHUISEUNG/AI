@@ -7,10 +7,11 @@ Created on Sat Sep 11 15:25:53 2021
 """
 
 from datetime import datetime
+nowTime = datetime.now().strftime('%H:%M')
 
 #%% 경기 결과 입력받는 곳
 place = input("경기가 열린 곳은? ")
-time = input("경기가 열린 시각은?     ")
+time = input("경기가 열린 시각은? ")
 opponent = input("상대 팀은? ")
 goals = input("손흥민은 몇 골을 넣었나요? ")
 aids = input("도움은 몇개 인가요? ")
@@ -18,7 +19,7 @@ score_me = input("손흥민 팀이 넣은 골 수는? ")
 score_you = input("상대 팀이 넣은 골 수는? ")
 
 #%%
-news = "[프리미어 리그 속보("+str(datetime.now())+")]\n"
+news = "[프리미어 리그 속보("+str(nowTime)+")]\n"
 news = news + "손흥민 선수는 "+place+"에서 "+time+"에 열린 경기에 출전하였습니다."
 news = news + "상대 팀은 " +opponent + "입니다."
 
