@@ -33,3 +33,16 @@ L4 = [[2,9,-5],[-1,9,4],[3,1,2]]
 import numpy as np #npmpy 에 as를 사용해 np 라는 별칭을 붙여줌
 nparray = np.zeros((5,5))
 #%%
+a=5
+if a>0:
+    print('a is greater than 0')
+elif a==0:
+    print('a is equal to 0')
+else:
+    print('a is lower than 0')
+#%%
+a=7
+if a%3==0:
+    print('3의로 나누어 떨어짐')
+else:
+    print('3의로 나누어 떨어지지 않음')
