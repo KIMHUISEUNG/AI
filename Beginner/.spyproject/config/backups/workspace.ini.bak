@@ -4,7 +4,7 @@ save_data_on_exit = True
 save_history = True
 save_non_project_files = False
 project_type = empty-project-type
-recent_files = ['Homework/week01/random_turtleway.py', 'drawing_iris.py', 'handwrit_number.py']
+recent_files = ['Homework/week01/random_turtleway.py', 'beginner_python.py', 'Homework/week01/yutGame.py']
 
 [main]
 version = 0.2.0
